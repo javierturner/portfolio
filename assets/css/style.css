@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #777777;
+}
+
+header {
+    position: fixed;
+    padding: 100px;
+    margin-bottom: 20px;
+    top: 0;
+}
+
+#name {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 40px;
+    width: 200px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#links {
+    float: right;
+    width: 100%;
+    color: #777777;
+}
+
+.wrapper {
+    width: 960px;
+    padding: 20px;
+    background: #ffffff;
+    /* position: absolute; */
+}
