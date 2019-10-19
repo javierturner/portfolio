@@ -12,29 +12,30 @@ h1 {
     font-size: 30px;
 }
 
-.header {
+header {
     background-color: #ffffff;
     /* background-color: red; */
     overflow: hidden;
     vertical-align: text-bottom;
-    width: 960px;
+    /* width: 960px; */
     height: 76px;
-    position: fixed;
-    margin: 0 auto;
-    left: 20%;
+    /* position: fixed; */
+    /* margin: 0 auto; */
+    /* left: 20%; */
     /* border: 0px 100px -0px 100px; */
-    top: 0;
+    /* top: 0; */
+    /* border-left: 100px; */
 }
 
 .name {
     color: #ffffff;
     float: left;
-    padding: 20px 35px;
+    padding: 30px 35px;
     font-size: 40px;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     position: relative; 
-    
+
 }
 
 .links a {
@@ -48,22 +49,24 @@ h1 {
 }
 
 .headwrap {
-    position: absolute;
-    width: 200%;
+    /* position: absolute; */
+    width: 960px;
     /* padding: 0px 100px 0px 100px; */
     background-color: red;
-    left: -100px;
+    /* left: -100px; */
     border: 100px;
     /* display: block; */
-    margin: 20px;
+    margin: 0 auto;
 }
 
 .wrapper {
     width: 960px;
     top: 100px;
     left: 20%;
+    /* left: 391px; */
     height: 600px;
     position: fixed;
+    /* position: relative; */
     margin-top: -100px;
     /* margin-left: -5px; */
     background-color: #ffffff;
@@ -113,6 +116,7 @@ img {
 
 .container {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* height: 600px; */
 }
 
 .container img {
@@ -155,4 +159,29 @@ input[type=text], select, textarea {
 
   label {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  .text-block {
+      position: absolute;
+      background-color: green;
+  }
+
+  .images p {
+      background-color: #4aaaa5;
+      position: absolute;
+      top: 85%;
+      left: 0;
+      right: 0%;
+      transform: translate(0, -75%);
+      text-align: center;
+      color: white;
+      padding: 10px;
+      width: 185px;
+      margin-left: 20px;
+  }
+
+  .images {
+      position: relative;
+      display: inline-block;
+      /* margin: 5px 10px 30px 10px; */
   }
