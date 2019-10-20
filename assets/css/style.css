@@ -78,6 +78,11 @@ header {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+#contact {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
 hr {
     display: block;
     height: 1px;
